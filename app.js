@@ -14,10 +14,10 @@ const drawBoard = () => {
       styleString += `border-bottom: 3px solid var(--purple);`;
     }
     if (index % 3 === 0) {
-      styleString += `border-right: 3px solid var(--purple);`;
+      styleString += `border-right: 3px solid var(--purple); padding-left: 30px;`;
     }
     if (index % 3 === 2) {
-      styleString += `border-left: 3px solid var(--purple);`;
+      styleString += `border-left: 3px solid var(--purple); padding-right: 30px;`;
     }
     if (index > 5) {
       styleString += `border-top: 3px solid var(--purple);`;
